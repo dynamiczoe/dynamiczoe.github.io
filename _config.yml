@@ -1,26 +1,91 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+encoding:     "utf-8"
+# External gems
+gems:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-sitemap
+
+exclude:
+  - "/vendor/"
 
 # Site settings
-encoding: utf-8
-
-title: Toast Rookie Park.Junghwan
+title: 개발을 합니다
+subtitle: ""
 email: dynamiczoe@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+name: 박정환
+description: > 
+ "타자치고 쳐다보고 고민하자"
+# Base URL of site (i.e. /blog). It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dynamiczoe.github.io" # the base hostname & protocol for your site
-twitter_username: dynamiczoe
-github_username:  dynamiczoe
-
-highlighter: pygments
-highlighter: rouge
+cover: "/assets/star.jpg"
+logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: false
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives: 
+  enabled: 
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Disqus comments
+disqus_shortname: parkjunghwan
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: DevOps
+    desc: "개발을 배우면서 기록하기"
+
+
+# Social icons and sharing options
+#
+# Social settings are used in two places:
+# * In the footer, as links to your personal profiles
+# * After each blog post for sharing widgets
+# 
+# Example:
+# 
+# social:
+#   - name: Twitter                         # Name of the service
+#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
+#     username: "@TheBenCentra"             # (User) Name to display in the footer link
+#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+#     desc: Follow me on Twitter            # Description to display as link title, etc
+#     share: true                           # Include in the "Share" section of posts
+social:
+  #
+
+  - name: GitHub
+    icon: github
+    username: dynamiczoe
+    url: https://github.com/dynamiczoe
+    desc: Fork me on GitHub
+    share: false
+
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    fb_image: "/assets/logo.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
+
+    twitter_image: "/assets/logo.png"
+
+    os_repo: "https://github.com/RichardLitt/wordhoardpress.com"
+    os_rcs_type: "git"
+    os_src: "git@github.com:RichardLitt/wordhoardpress.com.git"

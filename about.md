@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<img src="{{ site.baseurl }}/assets/profile.png" title="Profile Picture" class="profile">
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+NHN Entertainment에서 SW개발을 하고있습니다.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+끊임없이 실패하고 넘어져도
+일어나고 버텨내며 성장하는게 목표입니다.
+
+
+
+
