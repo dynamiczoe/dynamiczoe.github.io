@@ -41,6 +41,7 @@ Request Tokken : Consumer가 Service Provider 에게 접근 권한을 인증받�
 Access Tokken : 인증후 Consumer가 Service Provider의 자원에 접근하기위한 키를 포함한 값.
 
 # 순서
+
 1. Consumer는 Service Provider 에게 `Request Tokken 을 요청`한다.
 2. Service Provider는 `Request Tokken을 반환`해줍니다. 이를받은 Consumer는 `oauth_signature를 생성`합니다.
 3. Consumer가 Service Provider로부터 `인증 페이지를 호출`합니다. User는 Service 계정 인증을 합니다.
