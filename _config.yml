@@ -48,6 +48,8 @@ disqus_shortname: parkjunghwan
 descriptions:
   - cat: DevOps
     desc: "개발을 배우면서 기록하기"
+  - cat: Review
+    desc: "되돌아 봅시다"
 
 
 # Social icons and sharing options
