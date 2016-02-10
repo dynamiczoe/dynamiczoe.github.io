@@ -7,7 +7,6 @@ categories: DevOps
 tags:	DevOps
 cover:  "/assets/Earth.png"
 ---
-
 # DB 테이블과 스키마의 설계를 하면서 실수한점
 
 ### 코드값을 하드코딩하여 사용했다. (성별은 전체, 남, 여)

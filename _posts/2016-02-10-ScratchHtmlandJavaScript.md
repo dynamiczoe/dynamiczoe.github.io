@@ -7,7 +7,6 @@ categories: DevOps
 tags:	DevOps
 cover:  "/assets/Earth.png"
 ---
-
 # HTML은
 
 한 화면에는 각각 한쌍의 head, body 로 이루어져있다. 
