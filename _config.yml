@@ -24,7 +24,7 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 20
 paginate_path: "/page:num/"
 inter_post_navigation: false
 
@@ -34,7 +34,7 @@ jekyll-archives:
     - categories
     - tags
   layout: 'archive'
- 
+  
 
 # Disqus comments
 disqus_shortname: parkjunghwan
