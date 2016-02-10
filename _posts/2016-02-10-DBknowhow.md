@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DB know how"
-date:   2016-02-10 21:07:26
+date:   2016-02-10 12:07:26
 author: 박정환
 categories: DevOps
 tags:	DevOps

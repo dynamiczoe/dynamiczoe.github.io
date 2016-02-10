@@ -3,6 +3,7 @@ encoding:     "utf-8"
 gems:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
+  - jekyll-paginate
 
 exclude:
   - "/vendor/"
@@ -23,8 +24,7 @@ cover: "/assets/star.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
-kramdown:
-  input: GFM
+markdown: kramdown
 paginate: 20
 paginate_path: "/page:num/"
 inter_post_navigation: false
