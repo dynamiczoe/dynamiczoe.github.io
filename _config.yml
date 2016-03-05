@@ -24,8 +24,7 @@ cover: "/assets/star.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
-kramdown:
-  input: GFM
+markdown: kramdown
 paginate: 20
 paginate_path: "/page:num/"
 inter_post_navigation: false
