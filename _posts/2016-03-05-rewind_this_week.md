@@ -7,7 +7,6 @@ categories: Review
 tags:	Review
 cover:  "/assets/Earth.png"
 ---
-
 # 대화는 많을수록좋다.
 자잘한 내용이라도 공유해야 할 것 같다.
 > JavaScript DOM Object사용할것인지? JQuery Selector 사용할 것인지 통일이 이루어지지않아 김준성사원이 두번 일하는 일이 있었다
