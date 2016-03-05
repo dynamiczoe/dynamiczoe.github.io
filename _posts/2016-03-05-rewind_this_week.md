@@ -4,8 +4,8 @@ layout: post
 title:  "이번 한주를 보내면서.."
 date:   2016-03-05
 author: 박정환
-categories: review
-tags:	review
+categories: Review
+tags:	Review
 cover:  "/assets/Earth.png"
 ---
 
