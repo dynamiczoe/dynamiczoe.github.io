@@ -7,6 +7,7 @@ categories: Review
 tags:	Review
 cover:  "/assets/Earth.png"
 ---
+
 # 대화는 많을수록좋다.
 자잘한 내용이라도 공유해야 할 것 같다.
 
