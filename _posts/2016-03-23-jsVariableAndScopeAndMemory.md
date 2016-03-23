@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[JavaScript] 언어의 기초"
-date:   2016-03-22
+title:  "[JavaScript] 변수와 스코프, 메모리"
+date:   2016-03-23
 author: 박정환
 categories: JavaScript
 tags:	JavaScript
