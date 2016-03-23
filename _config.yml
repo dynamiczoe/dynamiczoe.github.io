@@ -57,6 +57,8 @@ descriptions:
     desc: "개발을 배우면서 기록하기"
   - cat: Review
     desc: "되돌아 봅시다"
+  - cat: JavaScript
+    desc: "Java말고 JavaScript"
 
 
 # Social icons and sharing options
